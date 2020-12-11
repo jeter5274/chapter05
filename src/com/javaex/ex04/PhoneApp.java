@@ -37,6 +37,8 @@ public class PhoneApp {
 			aList.get(i).showInfo();
 		}
 		
+		br.close();
+		
 		//방법3 : 새로운데이터를 추가 및 파일 생성
 		Writer fw = new FileWriter("C:\\javaStudy\\PhoneDB.txt");
 		BufferedWriter bw = new BufferedWriter(fw);
